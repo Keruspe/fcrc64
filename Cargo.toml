@@ -1,0 +1,11 @@
+[package]
+name = "fcrc64"
+version = "0.1.0"
+authors = ["Marc-Antoine Perennou <Marc-Antoine@Perennou.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "^1.0"
+atty = "^0.2"
+clap = "^2.33"
+crc64fast = "^1.0"
