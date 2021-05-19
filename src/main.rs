@@ -8,7 +8,7 @@ use std::{
     io::{self, Read},
 };
 
-const BUF_SIZE: usize = 4096;
+const BUF_SIZE: usize = 8192;
 
 fn main() -> Result<()> {
     let matches = App::new("fcrc64")
