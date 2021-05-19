@@ -24,7 +24,7 @@ fn main() -> Result<()> {
     } else {
         fcrc64(&mut io::stdin())
     }?;
-    println!("{}", crc64);
+    println!("{:x}", crc64);
     Ok(())
 }
 
